@@ -1,0 +1,22 @@
+project:
+  name: Customer Churn Prediction
+  version: 1.0.0
+
+data:
+  raw_data_path: data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+  processed_data_path: data/processed/
+  target_column: Churn
+  test_size: 0.20
+  random_state: 42
+
+artifacts:
+  model_path: artifacts/models/model.pkl
+  preprocessor_path: artifacts/models/preprocessor.pkl
+
+mlflow:
+  experiment_name: Customer_Churn_Prediction
+  tracking_uri: http://127.0.0.1:5000
+
+aws:
+  bucket_name: your-s3-bucket-name
+  region: ap-south-1

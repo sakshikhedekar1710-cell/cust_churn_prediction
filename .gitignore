@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+
+# MLflow
+mlruns/
+
+# Logs
+logs/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Tests
+tests/
+
+# Environment variables
+.env
+
+# Build
+dist/
+build/
+*.egg-info/
+customer-churn-app.zip
+*.code-workspace
