@@ -11,7 +11,6 @@ uvicorn==0.35.0
 pydantic==2.11.7
 python-multipart==0.0.20
 
-mlflow==3.1.1
 joblib==1.5.1
 scipy==1.16.0
 
